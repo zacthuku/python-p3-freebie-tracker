@@ -1,8 +1,8 @@
-"""add companies, devs tables
+"""create companies, devs
 
-Revision ID: ee905476242e
-Revises: c4d7867d81f5
-Create Date: 2022-11-02 14:15:14.386683
+Revision ID: 5f72c58bf48c
+Revises: 7a71dbf71c64
+Create Date: 2023-03-15 15:06:20.944586
 
 """
 from alembic import op
@@ -10,8 +10,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = 'ee905476242e'
-down_revision = 'c4d7867d81f5'
+revision = '5f72c58bf48c'
+down_revision = '7a71dbf71c64'
 branch_labels = None
 depends_on = None
 
